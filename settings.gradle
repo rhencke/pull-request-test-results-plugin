@@ -1,0 +1,5 @@
+rootProject.name = 'pull-request-test-results-plugin'
+
+include 'plugin'
+include 'groovy-support'
+
