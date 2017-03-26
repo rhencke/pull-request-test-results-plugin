@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'net.java.sezpoz'
+version = '1.12-kotlinfix'
+description = 'SezPoz Library'
+
+repositories {
+    mavenCentral()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version:'4.12'
+}

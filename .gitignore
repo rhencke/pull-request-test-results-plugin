@@ -1,4 +1,6 @@
 build/
 .gradle/
 work/
+.idea/kobaltBuild/
 .idea/
+.kobalt/

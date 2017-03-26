@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="pull-request-test-results-plugin" external.linked.project.path="$MODULE_DIR$/.." external.root.project.path="$MODULE_DIR$/.." external.system.id="KOBALT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../kobaltBuild/classes" />
+    <output-test url="file://$MODULE_DIR$/../kobaltBuild/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/kotlin" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/kobaltBuild" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="sezpoz" />
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.github.jnr:jffi:jar:native:1.2.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/github/jnr/jffi/1.2.7/jffi-1.2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.github.jnr:jffi:jar:1.2.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/github/jnr/jffi/1.2.7/jffi-1.2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: net.sf.ezmorph:ezmorph:jar:1.0.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-collections:commons-collections:jar:3.2.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:commons-jexl:jar:1.1-jenkins-20111212">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/commons-jexl/1.1-jenkins-20111212/commons-jexl-1.1-jenkins-20111212.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.google.code.findbugs:jsr305:jar:2.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke:asm5:jar:5.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/asm5/5.0.1/asm5-5.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.google.guava:guava:jar:14.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/google/guava/guava/14.0/guava-14.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet:tiger-types:jar:2.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/tiger-types/2.2/tiger-types-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:json-lib:jar:2.4-jenkins-2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/json-lib/2.4-jenkins-2/json-lib-2.4-jenkins-2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: javax.annotation:javax.annotation-api:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.ow2.asm:asm-tree:jar:4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.samba.jcifs:jcifs:jar:1.2.19">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/samba/jcifs/jcifs/1.2.19/jcifs-1.2.19.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-core:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-core/2.5.6.SEC03/spring-core-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-dao:jar:1.2.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-dao/1.2.9/spring-dao-1.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.hudson:commons-jexl:jar:1.1-hudson-20071021">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/hudson/commons-jexl/1.1-hudson-20071021/commons-jexl-1.1-hudson-20071021.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: forehead:forehead:jar:1.0-beta-5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/forehead/forehead/1.0-beta-5/forehead-1.0-beta-5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-discovery:commons-discovery:jar:20030211.213356">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-discovery/commons-discovery/20030211.213356/commons-discovery-20030211.213356.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-cli:commons-cli:jar:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-cli/commons-cli/1.0/commons-cli-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.ccil.cowan.tagsoup:tagsoup:jar:0.9.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xalan:xalan:jar:2.6.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xalan/xalan/2.6.0/xalan-2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.ibm.icu:icu4j:jar:2.6.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/ibm/icu/icu4j/2.6.1/icu4j-2.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.dom4j:dom4j:jar:1.6.1-jenkins-4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/dom4j/dom4j/1.6.1-jenkins-4/dom4j-1.6.1-jenkins-4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:commons-jelly:jar:1.1-jenkins-20120928">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/commons-jelly/1.1-jenkins-20120928/commons-jelly-1.1-jenkins-20120928.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler:jar:1.243">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler/1.243/stapler-1.243.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.github.jnr:jnr-x86asm:jar:1.0.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.ow2.asm:asm-util:jar:4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/ow2/asm/asm-util/4.0/asm-util-4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.ow2.asm:asm-analysis:jar:4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.ow2.asm:asm-commons:jar:4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.ow2.asm:asm:jar:4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/ow2/asm/asm/4.0/asm-4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: com.google.guava:guava:jar:16.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: aopalliance:aopalliance:jar:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: javax.inject:javax.inject:jar:1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: org.hamcrest:hamcrest-core:jar:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: org.apache.ant:ant-launcher:jar:1.7.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:symbol-annotation:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/symbol-annotation/1.2/symbol-annotation-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.jinterop:j-interopdeps:jar:2.0.6-kohsuke-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/j-interopdeps-2.0.6-kohsuke-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: stax:stax-api:jar:1.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: relaxngDatatype:relaxngDatatype:jar:20020414">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: javax.xml.stream:stax-api:jar:1.0-2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.slf4j:slf4j-api:jar:1.7.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-web:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-web/2.5.6.SEC03/spring-web-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-context-support:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-context-support/2.5.6.SEC03/spring-context-support-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-context:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-beans:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-beans/2.5.6.SEC03/spring-beans-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: oro:oro:jar:2.0.8">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/oro/oro/2.0.8/oro-2.0.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-support:jar:1.2.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-support/1.2.9/spring-support-1.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-jdbc:jar:1.2.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-jdbc/1.2.9/spring-jdbc-1.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-remoting:jar:1.2.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-remoting/1.2.9/spring-remoting-1.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.hudson:commons-jelly:jar:1.1-hudson-20071021">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/hudson/commons-jelly/1.1-hudson-20071021/commons-jelly-1.1-hudson-20071021.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-jelly:commons-jelly:jar:1.0-RC2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-jelly/commons-jelly/1.0-RC2/commons-jelly-1.0-RC2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-jexl:commons-jexl:jar:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-jexl/commons-jexl/1.0/commons-jexl-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-jelly:commons-jelly-tags-junit:jar:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-jelly/commons-jelly-tags-junit/1.0/commons-jelly-tags-junit-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xom:xom:jar:1.0b3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xom/xom/1.0b3/xom-1.0b3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xerces:xercesImpl:jar:2.6.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xml-apis:xml-apis:jar:1.3.02">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xml-apis/xml-apis/1.3.02/xml-apis-1.3.02.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: dom4j:dom4j:jar:1.6.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: javax.activation:activation:jar:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/activation/activation/1.1/activation-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-beanutils:commons-beanutils:jar:1.8.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.apache.ant:ant-launcher:jar:1.8.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: jfree:jcommon:jar:1.0.12">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/jfree/jcommon/1.0.12/jcommon-1.0.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xpp3:xpp3_min:jar:1.1.4c">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xmlpull:xmlpull:jar:1.1.3.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-io:commons-io:jar:2.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler-jelly:jar:1.243">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler-jelly/1.243/stapler-jelly-1.243.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.github.jnr:jnr-constants:jar:0.8.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/github/jnr/jnr-constants/0.8.5/jnr-constants-0.8.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.github.jnr:jnr-ffi:jar:1.0.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/github/jnr/jnr-ffi/1.0.7/jnr-ffi-1.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: aopalliance:aopalliance:jar:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: javax.inject:javax.inject:jar:1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.localizer:localizer:jar:1.23">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/localizer/localizer/1.23/localizer-1.23.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:constant-pool-scanner:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/constant-pool-scanner/1.2/constant-pool-scanner-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: org.yaml:snakeyaml:jar:1.15">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: com.beust:jcommander:jar:1.48">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/beust/jcommander/1.48/jcommander-1.48.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: com.google.inject:guice:jar:no_aop:4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/google/inject/guice/4.0/guice-4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: org.beanshell:bsh:jar:2.0b4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: junit:junit:jar:4.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/junit/junit/4.10/junit-4.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: org.apache.ant:ant:jar:1.7.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/apache/ant/ant/1.7.0/ant-1.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.plugins:structs:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/plugins/structs/1.2/structs-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.jcraft:jzlib:jar:1.1.3-kohsuke-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/jcraft/jzlib/1.1.3-kohsuke-1/jzlib-1.1.3-kohsuke-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.mindrot:jbcrypt:jar:0.3m">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-fileupload:commons-fileupload:jar:1.3.1-jenkins-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke:access-modifier-annotation:jar:1.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/access-modifier-annotation/1.4/access-modifier-annotation-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-codec:commons-codec:jar:1.8">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-codec/commons-codec/1.8/commons-codec-1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.robust-http-client:robust-http-client:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/robust-http-client/robust-http-client/1.2/robust-http-client-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.jinterop:j-interop:jar:2.0.6-kohsuke-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/jinterop/j-interop/2.0.6-kohsuke-1/j-interop-2.0.6-kohsuke-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: net.java.sezpoz:sezpoz:jar:1.11">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/net/java/sezpoz/sezpoz/1.11/sezpoz-1.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.sun.solaris:embedded_su4j:jar:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/sun/solaris/embedded_su4j/1.1/embedded_su4j-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.libzfs:libzfs:jar:0.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/libzfs/libzfs/0.5/libzfs-0.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke:libpam4j:jar:1.8">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/libpam4j/1.8/libpam4j-1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke:akuma:jar:1.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/akuma/1.10/akuma-1.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: net.java.dev.jna:jna:jar:4.2.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/net/java/dev/jna/jna/4.2.1/jna-4.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:jmdns:jar:3.4.0-jenkins-3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/jmdns/3.4.0-jenkins-3/jmdns-3.4.0-jenkins-3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.codehaus.woodstox:wstx-asl:jar:3.2.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:memory-monitor:jar:1.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/memory-monitor/1.9/memory-monitor-1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.winp:winp:jar:1.22">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/winp/winp/1.22/winp-1.22.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.sun.xml.txw2:txw2:jar:20110809">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/sun/xml/txw2/txw2/20110809/txw2-20110809.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.slf4j:log4j-over-slf4j:jar:1.7.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.slf4j:jcl-over-slf4j:jar:1.7.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: javax.servlet:jstl:jar:1.1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/servlet/jstl/1.1.0/jstl-1.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: xpp3:xpp3:jar:1.1.4c">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-aop:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-aop/2.5.6.SEC03/spring-aop-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.springframework:spring-webmvc:jar:2.5.6.SEC03">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/springframework/spring-webmvc/2.5.6.SEC03/spring-webmvc-2.5.6.SEC03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.fusesource.jansi:jansi:jar:1.11">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: jline:jline:jar:2.12">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/jline/jline/2.12/jline-2.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.codehaus.groovy:groovy-all:jar:2.4.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/codehaus/groovy/groovy-all/2.4.7/groovy-all-2.4.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.acegisecurity:acegi-security:jar:1.0.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/acegisecurity/acegi-security/1.0.7/acegi-security-1.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.hudson:commons-jelly-tags-define:jar:1.0.1-hudson-20071021">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/hudson/commons-jelly-tags-define/1.0.1-hudson-20071021/commons-jelly-tags-define-1.0.1-hudson-20071021.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-jelly:commons-jelly-tags-xml:jar:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-jelly/commons-jelly-tags-xml/1.1/commons-jelly-tags-xml-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-jelly:commons-jelly-tags-fmt:jar:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-jelly/commons-jelly-tags-fmt/1.0/commons-jelly-tags-fmt-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: jaxen:jaxen:jar:1.1-beta-11">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/jaxen/jaxen/1.1-beta-11/jaxen-1.1-beta-11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.hudson:activation:jar:1.1.1-hudson-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/hudson/activation/1.1.1-hudson-1/activation-1.1.1-hudson-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: javax.mail:mail:jar:1.4.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/javax/mail/mail/1.4.4/mail-1.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.apache.commons:commons-compress:jar:1.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/apache/commons/commons-compress/1.10/commons-compress-1.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-digester:commons-digester:jar:2.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-digester/commons-digester/2.1/commons-digester-2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-lang:commons-lang:jar:2.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.apache.ant:ant:jar:1.8.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/apache/ant/ant/1.8.4/ant-1.8.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: jfree:jfreechart:jar:1.0.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/jfree/jfreechart/1.0.9/jfreechart-1.0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.hudson:xstream:jar:1.4.7-jenkins-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/hudson/xstream/1.4.7-jenkins-1/xstream-1.4.7-jenkins-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: antlr:antlr:jar:2.7.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/antlr/antlr/2.7.6/antlr-2.7.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:task-reactor:jar:1.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/task-reactor/1.4/task-reactor-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:bytecode-compatibility-transformer:jar:1.8">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/bytecode-compatibility-transformer/1.8/bytecode-compatibility-transformer-1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:annotation-indexer:jar:1.11">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/annotation-indexer/1.11/annotation-indexer-1.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: args4j:args4j:jar:2.0.31">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/args4j/args4j/2.0.31/args4j-2.0.31.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: commons-httpclient:commons-httpclient:jar:3.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.infradna.tool:bridge-method-annotation:jar:1.13">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler-adjunct-codemirror:jar:1.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler-adjunct-codemirror/1.3/stapler-adjunct-codemirror-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler-adjunct-timeline:jar:1.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler-adjunct-timeline/1.4/stapler-adjunct-timeline-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler-adjunct-zeroclipboard:jar:1.3.5-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler-adjunct-zeroclipboard/1.3.5-1/stapler-adjunct-zeroclipboard-1.3.5-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke:windows-package-checker:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/windows-package-checker/1.2/windows-package-checker-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler-jrebel:jar:1.243">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler-jrebel/1.243/stapler-jrebel-1.243.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke.stapler:stapler-groovy:jar:1.243">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/stapler/stapler-groovy/1.243/stapler-groovy-1.243.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:trilead-ssh2:jar:build217-jenkins-8">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/trilead-ssh2/build217-jenkins-8/trilead-ssh2-build217-jenkins-8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.kohsuke:trilead-putty-extension:jar:1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/kohsuke/trilead-putty-extension/1.2/trilead-putty-extension-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.github.jnr:jnr-posix:jar:3.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/github/jnr/jnr-posix/3.0.1/jnr-posix-3.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jruby.ext.posix:jna-posix:jar:1.0.3-jenkins-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jruby/ext/posix/jna-posix/1.0.3-jenkins-1/jna-posix-1.0.3-jenkins-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: com.google.inject:guice:jar:4.0-beta">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/com/google/inject/guice/4.0-beta/guice-4.0-beta.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jvnet.hudson:jtidy:jar:4aug2000r7-dev-hudson-1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jvnet/hudson/jtidy/4aug2000r7-dev-hudson-1/jtidy-4aug2000r7-dev-hudson-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:crypto-util:jar:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/crypto-util/1.1/crypto-util-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci:version-number:jar:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/version-number/1.1/version-number-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.main:cli:jar:2.7.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/main/cli/2.7.1/cli-2.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.main:remoting:jar:2.59">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/main/remoting/2.59/remoting-2.59.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.plugins.icon-shim:icon-set:jar:1.0.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/plugins/icon-shim/icon-set/1.0.5/icon-set-1.0.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Kobalt: org.testng:testng:jar:6.9.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/testng/testng/6.9.9/testng-6.9.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.plugins:junit:jar:1.19">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/plugins/junit/1.19/junit-1.19.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: org.jenkins-ci.main:jenkins-core:jar:2.7.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.kobalt/cache/org/jenkins-ci/main/jenkins-core/2.7.1/jenkins-core-2.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Kobalt: file:///Users/rhencke/src/github.com/rhencke/pull-request-test-results-plugin/lib/jenkins-core-justclasses-2.7.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../lib/jenkins-core-justclasses-2.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

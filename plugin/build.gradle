@@ -1,22 +1,54 @@
 plugins {
     id 'org.jenkins-ci.jpi' version '0.22.0'
+    id 'nebula.kotlin' version '1.1.1'
+}
+
+repositories {
+    flatDir { dir "$rootDir/lib" }
 }
 
 jenkinsPlugin {
     coreVersion = jenkins_core_version
-
     displayName = 'Pull Request Test Results Plugin'
 }
 
-description 'Show failing test results as code review comments on pull requests, right at the source.'
+kapt {
+    generateStubs = true
+}
+
+description 'Show failing test results as code review comments on pull requests, right on the source code.'
 
 dependencies {
-    compileOnly project(':groovy-support')
+    // Work around https://youtrack.jetbrains.com/issue/KT-16931
+    compileOnly ":jenkins-core-justclasses:$jenkins_core_version@jar"
 
     jenkinsPlugins 'org.jenkins-ci.plugins:junit:1.20@jar'
 
+    kapt project(':sezpoz')
+
+    testCompile 'org.testng:testng:6.11'
+
     // Work around IntelliJ issue with older test harnesses.
     jenkinsTest 'org.jenkins-ci.main:jenkins-test-harness:2.19'
+}
 
-    testCompile "org.spockframework:spock-core:1.1-groovy-2.4-rc-3"
+// I don't know what keeps deleting the sezpoz annotations,
+// but, whatever it is, it leaves text files alone.
+// So, write out the sezpoz annotation as a 'text file', then
+// copy it to its correct location.
+// Moving it isn't sufficient - whatever it is is persistent
+// and keeps deleting it.
+task fixupStupidCrap(type: Copy) {
+    from("$buildDir/classes/main") {
+        include "**/*.not.txt"
+    }
+    into "$buildDir/classes/main"
+    eachFile {
+        it.name -= ".not.txt"
+    }
+}
+
+afterEvaluate {
+    tasks["fixupStupidCrap"].dependsOn tasks["compileKotlinAfterJava"]
+    tasks["classes"].dependsOn tasks["fixupStupidCrap"]
 }
